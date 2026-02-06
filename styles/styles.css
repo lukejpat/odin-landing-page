@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_links a {
+    text-decoration: none;
+}
+
+.header_links, .inspiration ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro .left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.intro .right {
+    flex: 1;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+}
+
+.inspiration ul {
+    display: flex;
+    gap: 10px;
+}
+
