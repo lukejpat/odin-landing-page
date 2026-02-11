@@ -1,3 +1,8 @@
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -7,6 +12,12 @@
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header_links a {
@@ -20,8 +31,22 @@
     display: flex;
 }
 
+.intro, .header {
+
+    background-color: #1F2937;
+}
+
+.hero_text, .header_links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .intro {
     display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 90px 100px;
+    
 }
 
 .intro .left {
@@ -30,8 +55,17 @@
     flex: 1;
 }
 
+.intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .intro .right {
     flex: 1;
+    background-color: grey;
+    text-align: center;
+    align-content: center;
 }
 
 .body {
