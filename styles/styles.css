@@ -36,12 +36,12 @@ html {
     display: flex;
 }
 
-.intro, .header {
+.intro, .header, .footer {
 
     background-color: #1F2937;
 }
 
-.hero_text, .header_links a {
+.hero_text, .header_links a, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -170,6 +170,13 @@ html {
 
     margin: 0;
     padding: 5px 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 
