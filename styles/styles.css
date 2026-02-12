@@ -83,6 +83,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .body .cards {
@@ -116,10 +117,29 @@ html {
 .inspiration {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 20px 350px;
 }
+
+.inspiration div {
+    align-self: flex-start;
+}
+
+.inspiration .comment {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+
+
 
 .inspiration ul {
     display: flex;
-    gap: 10px;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
 }
 
