@@ -17,7 +17,7 @@ html {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 20px 100px;
 }
 
 .logo {
@@ -27,6 +27,7 @@ html {
 
 .header_links a {
     text-decoration: none;
+
 }
 
 .header_links, .inspiration ul{
@@ -34,6 +35,7 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 20px;
 }
 
 .intro, .header, .footer {
@@ -170,6 +172,62 @@ html {
 
     margin: 0;
     padding: 5px 20px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.cta h2 {
+    color: #E5E7EB;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.cta .container {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    gap: 50px;  
+    flex: 1;
+    padding: 50px 250px;
+    color: #E5E7EB;
+}
+
+.cta .buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.cta button {
+    background-color: #3882f6;
+    
+    border-radius: 10px;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-style: solid;
+    font-weight: 800;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 28px;
+    cursor: pointer;
+    
+
+    
+}
+
+.cta button:hover, .intro button:hover {
+    background-color: #E5E7EB;
+    color:#555555;
 }
 
 .footer {
