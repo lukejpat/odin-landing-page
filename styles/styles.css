@@ -1,6 +1,11 @@
 
 html {
-  font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 .container {
@@ -53,6 +58,7 @@ html {
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 10px;
 }
 
 .intro h1 {
@@ -66,6 +72,22 @@ html {
     background-color: grey;
     text-align: center;
     align-content: center;
+}
+
+.intro button {
+    background-color: #3882f6;
+    border: 0;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: 800;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 28px;
 }
 
 .body {
@@ -134,12 +156,20 @@ html {
 }
 
 
-
+.inspiration .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
 
 .inspiration ul {
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+
     margin: 0;
-    padding: 0;
+    padding: 5px 20px;
 }
+
 
